@@ -176,7 +176,8 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
-        padding: 70px 32px;
+        /* padding: 70px 32px; */
+        height: 50rem;
         gap: 0;
     }
 
