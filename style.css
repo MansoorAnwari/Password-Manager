@@ -176,6 +176,7 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
+        padding: 3rem 0;
         gap: 0;
     }
 
@@ -197,7 +198,7 @@ body {
         text-align: center;
         flex-wrap: wrap;
         display: flex;
-        width: 18rem;
+        width: 19rem;
         line-height: 21.82px;
     }
 
