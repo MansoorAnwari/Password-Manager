@@ -29,7 +29,6 @@ body {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    padding: 6rem 2rem 6rem 2rem;
     gap: 4rem;
 }
 
