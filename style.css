@@ -181,7 +181,7 @@ body {
     }
 
     .e1 {
-        width: 300px;
+        width: 330px;
     }
 
     .inputs-part {
@@ -191,7 +191,7 @@ body {
     }
 
     .button {
-        width: 300px;
+        width: 330px;
     }
 
     .term-of-service {
@@ -199,11 +199,11 @@ body {
         flex-wrap: wrap;
         display: flex;
         width: 18rem;
-        line-height: 1.5rem;
+        line-height: 21.82px;
     }
 
     .title {
-        font-size: 28px;
+        font-size: 32px;
     }
 }
 
