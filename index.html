@@ -16,63 +16,67 @@
         <!-- childe 1 -->
         <div class="sign-up">
 
-            <div class="header">
-                <a href="#"><img class="brand-logo-design" src="asset/logo/logo-typography.svg" alt="brand-logo"></a>
-                <p class="title">Create An Account</p>
+            <a href="#"><img class="brand-logo-design" src="asset/logo/logo-typography.svg" alt="brand-logo"></a>
+            <h1 class="title">Create An Account</h1>
 
 
-                <div class="login">
-                    <p>Already have an account?</p>
-                    <a class="link" href="#">Login</a>
-                </div>
+            <div class="login">
+                <p>Already have an account?</p>
+                <a class="link" href="#">Login</a>
             </div>
 
-            <br>
+            <form class="form">
 
-            <div class="inputs-part">
-
-                <div class="password-and-icon">
-                    <input id="input0" class="e1" type="text" name="text" value="" autocomplete="off">
-                    <label for="input" class="password-label">Username</label>
+                <div class="control">
+                    <input id="input0" class="input-text" type="text" name="text" value="" autocomplete="off">
+                    <label for="input" class="label">Username</label>
                 </div>
 
 
-                <div class="password-and-icon">
-                    <input id="input1" class="e1" type="email" name="email" value="" autocomplete="off">
-                    <label for="input" class="password-label">Email</label>
+                <div class="control">
+                    <input id="input1" class="input-text" type="email" name="email" value="" autocomplete="off">
+                    <label for="input" class="label">Email</label>
                 </div>
 
 
-                <div class="password-and-icon">
-                    <input id="input2" class="e1" type="password" pattern="^[a-zA-Z0-9]{8,}$" name="password" value=""
-                        autocomplete="off">
-                    <label for="input" class="password-label">Password</label>
+                <div class="control">
+                    <input id="input2" class="input-text" type="password" pattern="^[a-zA-Z0-9]{8,}$" name="password"
+                        value="" autocomplete="off">
+                    <label for="input" class="label">Password</label>
                     <img class="eye-hide-icon" src="asset/icons/eye-hide.svg" alt="eye-hide">
                 </div>
 
+                <div class="group">
+                    <div class="control">
 
-                <div class="password-and-icon">
-                    <input id="input3" id="password-confirmation" class="e1" type="password" pattern="^[a-zA-Z0-9]{8,}$"
-                        name="password" value="" autocomplete="off">
-                    <label id="password-label-confirmation" for="input" class="password-label">Password
-                        Confirmation</label>
-                    <img class="eye-hide-icon" src="asset/icons/eye-hide.svg" alt="eye-hide">
+                        <input id="input3" id="password-confirmation" class="input-text" type="password"
+                            pattern="^[a-zA-Z0-9]{8,}$" name="password" value="" autocomplete="off">
+
+                        <label id="password-label-confirmation" for="input" class="label">Password
+                            Confirmation</label>
+
+                        <img class="eye-hide-icon" src="asset/icons/eye-hide.svg" alt="eye-hide">
+                    </div>
+
+                    <span class="error-message">Error Message</span>
+
                 </div>
-                <div class="error-message">Error Message</div>
+
 
 
                 <button class="button">Create</button>
 
+            </form>
 
 
-                <div class="term-of-service">
-                    <p>By signing up, you agree with our <a class="link" href="#">Terms of Service</a> and
-                        <a class="link" href="#">Privacy Policy</a>
-                    </p>
 
-                </div>
+            <p class="term-of-service">By signing up, you agree with our <a class="link" href="#">Terms of Service</a>
+                and
+                <a class="link" href="#">Privacy Policy</a>
+            </p>
 
-            </div>
+
+
 
         </div>
 
