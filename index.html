@@ -4,87 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <title>Password Manager</title>
 </head>
 
 <body>
 
-    <div class="container">
 
-        <div class="sign-up">
-
-            <a href="#"><img class="brand-logo-design" src="asset/logo/logo-typography.svg" alt="brand-logo"></a>
-            <h1 class="title">Create An Account</h1>
-
-
-            <div class="login">
-                <p>Already have an account?</p>
-                <a class="link" href="#">Login</a>
-            </div>
-
-            <form class="form">
-
-                <div class="control">
-                    <input id="input0" class="input-text" type="text" name="text" value="" autocomplete="off">
-                    <label for="input" class="label">Username</label>
-                </div>
-
-
-                <div class="control">
-                    <input id="input1" class="input-text" type="email" name="email" value="" autocomplete="off">
-                    <label for="input" class="label">Email</label>
-                </div>
-
-
-                <div class="control">
-                    <input id="input2" class="input-text" type="password" pattern="^[a-zA-Z0-9]{8,}$" name="password"
-                        value="" autocomplete="off">
-                    <label for="input" class="label">Password</label>
-                    <img class="eye-hide-icon" src="asset/icons/eye-hide.svg" alt="eye-hide">
-                </div>
-
-                <div class="group">
-                    <div class="control">
-
-                        <input id="input3" id="password-confirmation" class="input-text" type="password"
-                            pattern="^[a-zA-Z0-9]{8,}$" name="password" value="" autocomplete="off">
-
-                        <label id="password-label-confirmation" for="input" class="label">Password
-                            Confirmation</label>
-
-                        <img class="eye-hide-icon" src="asset/icons/eye-hide.svg" alt="eye-hide">
-                    </div>
-
-                    <span class="error-message">Error Message</span>
-
-                </div>
-
-
-
-                <button class="button">Create</button>
-
-            </form>
-
-
-
-            <p class="term-of-service">By signing up, you agree with our <a class="link" href="#">Terms of Service</a>
-                and
-                <a class="link" href="#">Privacy Policy</a>
-            </p>
-
-
-
-
-        </div>
-
-
-
-        <div class="sign-up-image">
-            <img src="asset/vectors/welcome.svg" alt="vector">
-        </div>
-    </div>
+    <div id="container" class="container"></div>
     <script src="script.js"></script>
 </body>
 
