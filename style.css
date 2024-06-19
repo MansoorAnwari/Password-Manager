@@ -274,8 +274,8 @@ a {
     }
 
     .sign-up-image {
-
         display: flex;
+        width: 0;
     }
 
     .title {
